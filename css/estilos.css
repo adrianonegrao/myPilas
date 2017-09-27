@@ -24,3 +24,45 @@ header img{
 	padding-right: 15px;
 	margin: 0 auto;
 }
+
+article{
+	border: 1px solid #95a4a5;
+	width: 370px;
+	padding: 10px;
+}
+
+article > h2 {
+	background-color: #95a4a5;
+	color: #fff;
+	text-align: center;
+	line-height: 2.5; 
+	margin: 0;
+	margin: -10px; /* por causa do padding do article */
+	margin-bottom: 10px;
+	font-weight: normal;
+	font-size: 28px;
+}
+
+#planos{
+	padding: 80px 0;
+}
+
+article > div{
+	text-align: center;
+	font-size: 28px;
+	margin: 20px 0;
+}
+
+article > ul{
+	list-style: none;
+	padding: 0;
+	margin: 20px;
+}
+
+article > ul > li {
+	text-align: center;
+}
+
+article > footer {
+	text-align: center;
+}
